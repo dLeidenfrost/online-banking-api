@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "node server.js",
     "init:eslint": "eslint --init",
     "format:check": "prettier --check",
     "format:write": "prettier --write .",
