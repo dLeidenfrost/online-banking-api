@@ -1,0 +1,44 @@
+{
+  "recipients": [
+    {
+      "id": 1,
+      "alias": "Recipient 1",
+      "email": "recipient1@nomail.com",
+      "bank": "BBVA",
+      "account_number": "000000000000000001"
+    },
+    {
+      "id": 2,
+      "alias": "Recipient 2",
+      "email": "recipient2@nomail.com",
+      "bank": "Santander",
+      "account_number": "000000000000000002"
+    },
+    {
+      "id": 3,
+      "alias": "Recipient 3",
+      "email": "recipient3@nomail.com",
+      "bank": "Other",
+      "account_number": "000000000000000003"
+    },
+    {
+      "alias": "Recipient 4",
+      "email": "recipient4@nomail.com",
+      "bank": "BBVA",
+      "account_number": "000000000000000004",
+      "id": 4
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 10000,
+      "recipient_account": "000000000000000001"
+    },
+    {
+      "amount": 12000,
+      "recipient_account": "000000000000000002",
+      "id": 2
+    }
+  ]
+}

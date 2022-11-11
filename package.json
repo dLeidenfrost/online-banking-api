@@ -1,0 +1,20 @@
+{
+  "name": "online-banking-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "init:eslint": "eslint --init",
+    "format:check": "prettier --check",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "json-server": "^0.17.1",
+    "prettier": "^2.7.1"
+  }
+}
